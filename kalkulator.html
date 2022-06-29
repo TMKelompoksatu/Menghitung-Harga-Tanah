@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Penghitung Harga Tanah</title>
+<script src="hargaTanah.js"></script>
+</head>
+<body>
+        <h1>Penghitung Harga Tanah</h1>
+        <table border="1" cellpadding="5" cellspacing="5" width="600">
+       
+            <tr align="center">
+                <td>Lebar</td>
+                <td>Panjang</td>
+                <td>Harga</td>
+            </tr>
+            <tr align="center">
+                <td><input name="lebar" type="text" size=10 id='lebar' /></td>
+                <td><input name="panjang" type="text" size=10 id='panjang' /></td>
+                <td><input name="harga" type="text" size=10 id='harga' /></td>
+            </tr> 
+
+        </table><br>
+
+        <table border="1" cellpadding="5" cellspacing="5" width="600">
+            <tr align="center">
+                <td>Tahun 1</td>
+                <td>Tahun 2</td>
+                <td>Tahun 3</td>
+                <td>Tahun 4</td>
+                <td>Tahun 5</td>
+            </tr>
+            <tr align="center">
+                <td> <input type="text" id='result1' readonly></td>
+                <td> <input type="text" id='result2' readonly></td>
+                <td> <input type="text" id='result3' readonly></td>
+                <td> <input type="text" id='result4' readonly></td>
+                <td> <input type="text" id='result5' readonly></td>
+            </tr>
+        </table>
+
+        <tr>
+            <td><br>
+                <input type="button" value="Hasil" onclick="showresult()">
+            </td>
+            
+        </tr>
+    
+</body>
+</html>
